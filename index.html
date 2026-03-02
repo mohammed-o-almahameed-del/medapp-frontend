@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>MedApp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>تسجيل الدخول</h2>
+  <form id="loginForm">
+    <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+    <input type="text" id="name" placeholder="الاسم" required>
+    <input type="number" id="age" placeholder="العمر" required>
+    <button type="submit">دخول</button>
+  </form>
+
+  <div id="uploadSection" style="display:none;">
+    <h2>رفع الملف</h2>
+    <input type="file" id="fileInput" accept=".pdf,.doc,.docx">
+    <button id="uploadBtn">رفع</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
